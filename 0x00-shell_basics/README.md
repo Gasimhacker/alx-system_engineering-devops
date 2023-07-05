@@ -1,2 +1,3 @@
 pwd is the command to print the current working directory
-ls is the command to display the contents list of your current directory.  
+ls is the command to display the contents list of your current directory.
+cd (without specifing any path) is the command to changes the working directory to the user’s home directory.  
