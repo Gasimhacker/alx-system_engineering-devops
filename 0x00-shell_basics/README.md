@@ -6,4 +6,5 @@ ls -la is the command to display current directory contents, including hidden fi
 ls -na is the command to Display current directory contents in Long format,with user and group IDs displayed numerically and hidden files (starting with.).
 mkdir is the command to create a new directory.
 mv is the command to move a file or directory.
-rm is the command to delete a file or directory.
+rm is the command to delete a file.
+rm -r is the command to delete a directory.
