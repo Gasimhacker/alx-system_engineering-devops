@@ -5,3 +5,4 @@ ls -l is the command to display current directory contents in a long format.
 ls -la is the command to display current directory contents, including hidden files (starting with .), Using the long format.
 ls -na is the command to Display current directory contents in Long format,with user and group IDs displayed numerically and hidden files (starting with.).
 mkdir is the command to create a new directory.
+mv is the command to move or rename a file.
