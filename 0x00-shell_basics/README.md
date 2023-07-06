@@ -9,3 +9,4 @@ mv is the command to move a file or directory.
 rm is the command to delete a file.
 rm -r is the command to delete a directory.
 cd - is the command to change the working directory to the previous one.
+type is the command to print the type of the file.
