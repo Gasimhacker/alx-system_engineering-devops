@@ -11,3 +11,4 @@ rm -r is the command to delete a directory.
 cd - is the command to change the working directory to the previous one.
 file is the command to print the type of the file.
 ln is the command to make a symbolic link.
+cp is the command to copy files or directories.
