@@ -1,0 +1,2 @@
+#!/bin/bash
+tr '[A-MN-Z][a-mn-z]' '[N-ZA-M][n-za-m]'
