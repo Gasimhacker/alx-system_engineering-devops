@@ -10,15 +10,22 @@ In order to push the screenshots to the sandbox using SFTP there are few steps t
 ## Steps
 
 - From your local machine establish an SFTP session by issuing the following command:
-`$ sftp mohammed@your_server_ip_or_remote_hostname
-- Navigate to the required directory: 
+
+`$ sftp mohammed@your_server_ip_or_remote_hostname`
+- Navigate to the required directory:
+
 `$ cd /root/alx-system_engineering-devops/`
 
 - Create a new directory using the command:
+
 `$ mkdir command_line_for_the_win`
+
 - To navigate inside your local machine to the place containing the screenshots use the command:
+
 `$ lcd your_path`
+
 - Push the files to the to the remote system using the command:
+
 `$ put localFile`
 
 Once you are done with these steps you can push the screenshots to github from your sandbox.
