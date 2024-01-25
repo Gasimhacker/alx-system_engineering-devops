@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Loop from 1 to 100 and display each number
+# display "bad luck" for the 4th loop iteration
+# displays "good luck" for the 8th loop iteration
+# displays "Best School" for the other iterations
+
+for i in {1..100}
+do
+	if [ $((i % 15)) == "0" ]
+	then
+		echo "FizzBuzz"
+	elif [ $((i % 5)) == "0" ]
+	then
+		echo "Buzz"
+	elif [ $((i % 3)) == "0" ]
+	then
+		echo "Fizz"
+	else
+		echo $i
+	fi
+done
