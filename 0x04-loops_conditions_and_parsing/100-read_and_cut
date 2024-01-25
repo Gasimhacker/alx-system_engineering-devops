@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
-# Loop from 1 to 100 and display each number
-# display "FizzBuzz" when the number is a multiple of 3 and 5
-# displays "Fizz" when the number is a multiple of 3
-# displays "Buzz" when the number is a multiple of 5
+# Display some of the contents of the file /etc/passwd
 input="/etc/passwd"
 while read -r line
 do
