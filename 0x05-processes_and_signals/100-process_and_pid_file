@@ -8,5 +8,5 @@ do
 	sleep 2
 	trap 'echo "I hate the kill command"' SIGTERM
 	trap 'rm /var/run/myscript.pid && exit' SIGTERM SIGQUIT
-	trap 'echo "Y U no love me?!"' SIGINT
+	trap 'echo "Y U no love me?!" && exit' SIGINT
 done
