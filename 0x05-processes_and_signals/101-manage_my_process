@@ -4,8 +4,7 @@
 start()
 {
 	./manage_my_process &
-	pid=$(pgrep -f /manage_my_process)
-	echo "$pid" > /var/run/my_process.pid
+	echo $$ > /var/run/my_process.pid
 }
 
 stop()
