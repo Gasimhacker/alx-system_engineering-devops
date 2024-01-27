@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # Manage the script in the file "manage_my_process"
-
 start()
 {
 	./manage_my_process &
-	echo $$ | sudo tee /var/run/my_process.pid > /dev/null
+	echo $! | sudo tee /var/run/my_process.pid > /dev/null
 }
 
 stop()
