@@ -1,0 +1,34 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 localhost:domain        0.0.0.0:*               LISTEN      4974/systemd-resolv 
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN      696/sshd: /usr/sbin 
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN      696/sshd: /usr/sbin 
+udp        0      0 localhost:domain        0.0.0.0:*                           4974/systemd-resolv 
+udp        0      0 ubuntu-focal:bootpc     0.0.0.0:*                           4943/systemd-networ 
+raw6       0      0 [::]:ipv6-icmp          [::]:*                  7           4943/systemd-networ 
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ACC ]     SEQPACKET  LISTENING     13480    1/init               /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     18274    1/init               /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     13449    1/init               /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     26953    1421/systemd         /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     26958    1421/systemd         /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     13451    1/init               /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     26959    1421/systemd         /run/user/1000/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     26960    1421/systemd         /run/user/1000/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     26961    1421/systemd         /run/user/1000/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     18279    1/init               /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     13462    1/init               @/org/kernel/linux/storage/multipathd
+unix  2      [ ACC ]     STREAM     LISTENING     13460    1/init               /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     26962    1421/systemd         /run/user/1000/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     18281    1/init               /run/snapd-snap.socket
+unix  2      [ ACC ]     STREAM     LISTENING     26963    1421/systemd         /run/user/1000/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     26964    1421/systemd         /run/user/1000/pk-debconf-socket
+unix  2      [ ACC ]     STREAM     LISTENING     18277    1/init               /var/snap/lxd/common/lxd/unix.socket
+unix  2      [ ACC ]     STREAM     LISTENING     13465    1/init               /run/systemd/fsck.progress
+unix  2      [ ACC ]     STREAM     LISTENING     26965    1421/systemd         /run/user/1000/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     18283    1/init               /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     13475    1/init               /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     13594    355/systemd-journal  /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     21112    646/irqbalance       /run/irqbalance//irqbalance646.sock
+unix  2      [ ACC ]     STREAM     LISTENING     18276    1/init               @ISCSIADM_ABSTRACT_NAMESPACE
