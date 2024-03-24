@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Create new ssh key pairs
+# Change the configuration of the ssh_config file
 PasswordAuthentication no
 IdentityFile ~/.ssh/school
