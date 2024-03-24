@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Create new ssh key pairs
+PasswordAuthentication no
+IdentityFile ~/.ssh/school
