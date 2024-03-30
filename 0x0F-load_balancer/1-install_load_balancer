@@ -7,8 +7,8 @@ apt-get -y install haproxy=2.8.\*
 backend="
 backend web-backend
    balance roundrobin
-   server web1 100.24.240.126:80 check
-   server web2 54.157.134.215:80 check"
+   server 480531-web-01 100.24.240.126:80 check
+   server 480531-web-02 54.157.134.215:80 check"
 frontend="
 frontend http
    bind *:80
@@ -16,6 +16,6 @@ frontend http
 
    default_backend web-backend"
 echo "ENABLED=1" >> /etc/default/haproxy
-echo "$backend" >> /etc/haproxy/haproxy.cfg
 echo "$frontend" >> /etc/haproxy/haproxy.cfg
+echo "$backend" >> /etc/haproxy/haproxy.cfg
 service haproxy restart
