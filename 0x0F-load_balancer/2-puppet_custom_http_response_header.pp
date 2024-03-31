@@ -1,3 +1,4 @@
+# Automate the creation of custom http header
 exec {'insert the header':
   command => 'apt-get -y update;
   apt-get -y install nginx;
