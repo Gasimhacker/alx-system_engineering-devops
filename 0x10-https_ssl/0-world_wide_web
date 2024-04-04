@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Print The ip addresses of your subdomains
+
+subdomains=("www" "lb-01" "web-01" "web-02")
+
+print_domains() {
+	answer=$(dig +noall +answer "$2.$1")
+	record_type=$(echo "$answer" | awk '{print $4}')
+	ip=$(echo "$answer" | awk '{print $5}')
+	echo "The subdomain $2 is a $record_type record and points to $ip"
+}
+
+if [ $# == 2 ]
+then
+	print_domains "$1" "$2"
+else
+	for sub_domain in "${subdomains[@]}"
+	do
+		print_domains "$1" "$sub_domain"
+	done
+fi
