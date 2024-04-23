@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     with open('USER_ID.csv', 'w', newline='') as csvfile:
         fieldnames = ['userId', 'username', 'completed', 'title']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
         for task in todo_list:
             writer.writerow({'userId': task['userId'],
                              'username': name,
