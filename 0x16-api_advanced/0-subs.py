@@ -8,7 +8,7 @@ def number_of_subscribers(subreddit):
     """Count the number of subscribers"""
     headers = {'User-Agent': 'Chrome/124.0.0.0 Safari/537.36'}
     url = f'https://www.reddit.com/r/{subreddit}/about.json'
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, allow_redirects=False)
     if (r.status_code == 404):
         return 0
     subreddit_data = r.json().get('data')
