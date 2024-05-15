@@ -1,3 +1,4 @@
+# Increase the file limit for nginx service
 file { '/etc/default/nginx':
   ensure  => file,
   content => '# Note: You may want to look at the following page before setting the ULIMIT.
