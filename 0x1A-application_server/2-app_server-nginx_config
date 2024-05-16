@@ -64,7 +64,7 @@ server {
 
         location = /airbnb-onepage/ {
                 include proxy_params;
-                proxy_pass http://localhost:5000;
+                proxy_pass http://localhost:5000/airbnb-onepage/;
         }
 
         location / {
