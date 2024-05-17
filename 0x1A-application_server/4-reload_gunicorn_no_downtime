@@ -2,4 +2,4 @@
 # Gracefully reloads Gunicorn.
 
 master=$(pgrep gunicorn | head -1)
-kill -HUP $master
+kill -HUP "$master"
